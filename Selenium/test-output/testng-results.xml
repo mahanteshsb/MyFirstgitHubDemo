@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Page TitleThe Best Plans And Pricing For You]]>
+    </line>
+    <line>
+      <![CDATA[PAge titleThe Best Plans And Pricing For You]]>
+    </line>
+    <line>
+      <![CDATA[PAge titleInstagram Marketing Software Features - Socinator]]>
+    </line>
+    <line>
+      <![CDATA[PAge titleThe Best Plans And Pricing For You]]>
+    </line>
+    <line>
+      <![CDATA[PAge titleThe All In One Facebook Marketing For IM’ers - Socinator]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-17T12:48:10 IST" name="Default suite" finished-at="2023-03-17T12:49:54 IST" duration-ms="103968">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T12:48:10 IST" name="Default test" finished-at="2023-03-17T12:49:54 IST" duration-ms="103968">
+      <class name="com.socinator.testcases.TC001">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:09 IST" name="beforeSuite" finished-at="2023-03-17T12:48:10 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="initialization()[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:10 IST" name="initialization" finished-at="2023-03-17T12:48:28 IST" duration-ms="17859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="verify_pricing()[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:28 IST" name="verify_pricing" finished-at="2023-03-17T12:48:53 IST" duration-ms="25732" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page TitleThe Best Plans And Pricing For You]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_pricing -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:53 IST" name="tearDown" finished-at="2023-03-17T12:48:53 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_pricing status=SUCCESS method=TC001.verify_pricing()[pri:0, instance:com.socinator.testcases.TC001@6a370f4] output=Page TitleThe Best Plans And Pricing For You]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verify_domainRegistrationDate()[pri:2, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:53 IST" name="verify_domainRegistrationDate" finished-at="2023-03-17T12:48:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_domainRegistrationDate -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:53 IST" name="tearDown" finished-at="2023-03-17T12:48:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_domainRegistrationDate status=SUCCESS method=TC001.verify_domainRegistrationDate()[pri:2, instance:com.socinator.testcases.TC001@6a370f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verify_feature()[pri:3, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:48:53 IST" name="verify_feature" finished-at="2023-03-17T12:49:54 IST" duration-ms="60102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PAge titleThe Best Plans And Pricing For You]]>
+            </line>
+            <line>
+              <![CDATA[PAge titleInstagram Marketing Software Features - Socinator]]>
+            </line>
+            <line>
+              <![CDATA[PAge titleThe Best Plans And Pricing For You]]>
+            </line>
+            <line>
+              <![CDATA[PAge titleThe All In One Facebook Marketing For IM’ers - Socinator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_feature -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:49:54 IST" name="tearDown" finished-at="2023-03-17T12:49:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_feature status=SUCCESS method=TC001.verify_feature()[pri:3, instance:com.socinator.testcases.TC001@6a370f4] output=PAge titleThe Best Plans And Pricing For You]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.socinator.testcases.TC001@6a370f4]" started-at="2023-03-17T12:49:54 IST" name="closeBrowser" finished-at="2023-03-17T12:49:56 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.socinator.testcases.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

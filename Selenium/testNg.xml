@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Power AD Spy Application Automation Suite">
+
+<parameter name="testng.metrics.report.logo" value = "https://poweradspy.com/wp-content/uploads/2018/05/Untitled-design-3.png"/>
+	<parameter name="testng.metrics.report.name" value = "Power_Automation_Report.html"/>
+	 <parameter name="testng.metrics.report.appendTimestamp" value = "True"/> 
+	
+	<listeners>
+      <listener class-name="com.power.qa.util.TestStatusListener"/>
+    </listeners>
+	<test name="PowerAdSpy Application Test">
+    <classes>
+				<class name="com./socinator/testcases/TC001"/> 
+       
+       
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
